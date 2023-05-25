@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sanic-sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Victor <victor.movileanu@check24.de>"]
+readme = "README.md"
+packages = [{include = "sanic_sandbox"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sanic = "^23.3.0"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
